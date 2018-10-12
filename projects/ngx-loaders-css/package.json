@@ -1,0 +1,28 @@
+{
+  "name": "ngx-loaders-css",
+  "version": "1.0.0",
+  "description": "Loaders.css component for Angular X",
+  "keywords": [
+    "angular",
+    "ngx",
+    "loaders.css",
+    "spinner",
+    "loader",
+    "css"
+  ],
+  "homepage": "https://github.com/t7yang/ngx-loaders-css",
+  "bugs": {
+    "url": "https://github.com/t7yang/ngx-loaders-css/issues"
+  },
+  "license": "MIT",
+  "author": "t7yang (https://github.com/t7yang)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t7yang/ngx-loaders-css.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "loaders.css": "^0.1.2"
+  }
+}

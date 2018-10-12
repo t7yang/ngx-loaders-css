@@ -1,0 +1,10 @@
+.loaders-change {
+  width: 100%;
+  height: 200px;
+}
+
+.loaders-demo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

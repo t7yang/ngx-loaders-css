@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<section class="loaders-change">
+  <loaders-css [loader]="loader" [bgColor]="'palevioletred'" [scale]="1"></loaders-css>
+</section>
+
+<section class="loaders-demo">
+  <div style="display: block; width: 100px; height: 100px;" *ngFor="let l of loaders">
+    <loaders-css [loader]="l" [bgColor]="'palevioletred'" [scale]="1"></loaders-css>
+  </div>
+</section>
