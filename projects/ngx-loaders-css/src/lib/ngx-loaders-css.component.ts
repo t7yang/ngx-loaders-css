@@ -58,7 +58,7 @@ export class NgxLoadersCssComponent {
   private updateSpinnersColor(config: LoadersCSSConfig) {
     this.spinners
       ? this.spinners.forEach(
-          elm => (elm.nativeElement.style.backgroundColor = config.hasBg ? this.color : ''),
+          (elm) => (elm.nativeElement.style.backgroundColor = config.hasBg ? this.color : ''),
         )
       : setTimeout(() => this.updateSpinnersColor(config), 100);
   }

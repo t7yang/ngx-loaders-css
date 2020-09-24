@@ -20,9 +20,12 @@
     "type": "git",
     "url": "https://github.com/t7yang/ngx-loaders-css.git"
   },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "peerDependencies": {
-    "@angular/common": ">=6.0.0-rc.0 || >=6.0.0",
-    "@angular/core": ">=6.0.0-rc.0 || >=6.0.0",
+    "@angular/common": ">=8.0.0-rc.0 || >=8.0.0",
+    "@angular/core": ">=8.0.0-rc.0 || >=8.0.0",
     "loaders.css": "^0.1.2"
   }
 }
