@@ -25,14 +25,11 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class NgxLoadersCssComponent {
-  @ViewChildren('spinner')
-  spinners: QueryList<ElementRef>;
+  @ViewChildren('spinner') spinners?: QueryList<ElementRef>;
 
-  @Input()
-  bgColor = 'transparent';
+  @Input() bgColor = 'transparent';
 
-  @Input()
-  color = '#FFFFFF';
+  @Input() color = '#FFFFFF';
 
   $loader: LoadersCSS = 'ball-pulse';
 
