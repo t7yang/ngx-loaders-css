@@ -1,6 +1,6 @@
 {
   "name": "ngx-loaders-css",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Loaders.css component for Angular X",
   "keywords": [
     "angular",
@@ -24,8 +24,8 @@
     "tslib": "^2.3.0"
   },
   "peerDependencies": {
-    "@angular/common": ">=8.0.0-rc.0 || >=8.0.0",
-    "@angular/core": ">=8.0.0-rc.0 || >=8.0.0",
+    "@angular/common": ">=12.0.0",
+    "@angular/core": ">=12.0.0",
     "loaders.css": "^0.1.2"
   }
 }
